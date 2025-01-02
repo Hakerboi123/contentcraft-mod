@@ -1,0 +1,11 @@
+{
+  "item.contentcraft.xaenon_ingot": "Xaenon Ingot",
+  "item.contentcraft.raw_xaenon": "Raw Xaenon",
+
+  "block.contentcraft.xaenon_block": "Xaenon Block",
+  "block.contentcraft.raw_xaenon_block": "Raw Xaenon Block",
+  "block.contentcraft.xaenon_ore": "Xaenon Ore",
+
+  "itemgroup.contentcraft.ccxaenon_items": "CC: Xaenon Items",
+  "itemgroup.contentcraft.ccxaenon_blocks": "CC: Xaenon Blocks"
+}
