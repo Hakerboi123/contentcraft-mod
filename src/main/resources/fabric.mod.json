@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "contentcraft",
+	"version": "${version}",
+	"name": "ContentCraft",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Lead Dev: Hakerboi, ",
+		"Made in partnership with GlowstoneLabs"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/contentcraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"xyz.glowstonelabs.contentcraft.ContentCraft"
+		],
+		"fabric-datagen": [
+			"xyz.glowstonelabs.contentcraft.ContentCraftDataGenerator"
+		],
+		"client": [
+			"xyz.glowstonelabs.contentcraft.ContentCraftClient"
+		]
+	},
+	"mixins": [
+		"contentcraft.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
