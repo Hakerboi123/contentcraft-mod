@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "contentcraft:block/maple_log_top",
+    "side": "hmh:block/maple_log_side"
+  }
+}

@@ -6,7 +6,11 @@
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Lead Dev: Hakerboi, ",
-		"Made in partnership with GlowstoneLabs"
+		"Made in partnership with GlowstoneLabs",
+		"Contributors & coding help: ",
+		"- Romeo Snowblitz: WorldGen Help",
+		"- Bottetoundra719: WorldGen Help",
+		"- Azudin: Xaenon Textures"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -18,9 +22,6 @@
 	"entrypoints": {
 		"main": [
 			"xyz.glowstonelabs.contentcraft.ContentCraft"
-		],
-		"fabric-datagen": [
-			"xyz.glowstonelabs.contentcraft.ContentCraftDataGenerator"
 		],
 		"client": [
 			"xyz.glowstonelabs.contentcraft.ContentCraftClient"
